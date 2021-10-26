@@ -1,7 +1,7 @@
 FROM rocker/verse
 RUN apt update && apt-get install -y python3-pip
 RUN pip3 install --pre --user hy
-RUN pip3 install beautifulsoup4 theano tensorflow keras sklearn pandas numpy pandasql
+RUN pip3 install beautifulsoup4 theano keras sklearn pandas numpy pandasql
 RUN R -e "install.packages(c(\"shiny\",\"deSolve\",\"signal\"))"
 RUN R -e "install.packages(\"Rcpp\")";
 RUN R -e "install.packages(\"reticulate\")";
