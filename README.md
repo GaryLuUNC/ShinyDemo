@@ -1,6 +1,6 @@
 # ShinyDemo
 
-This interactive visualization allows you to choose a year on the slider that a Summer Olympics took place in and the bar plot will show how many medals each country won in the Summer Olympics in that year. You can also select boxes to select properties so that only the medals that satisfy these properties will be included in the plot.  
+This interactive visualization allows you to choose a year on the slider that a Summer Olympics took place in and the bar plot will show how many medals each country won in the Summer Olympics in that year. You can also select boxes to select properties so that only the medals that satisfy these properties will be included in the plot. You can also decide whether or not to include all countries or only those countries that were in all of the Summer Olympics from 1976 to 2008. 
 
 To run the visualization:
 
