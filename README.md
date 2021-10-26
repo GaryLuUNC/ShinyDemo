@@ -8,6 +8,13 @@ To run the visualization:
 2. Open up RStudio.
 3. Run the line of code ```getwd()``` in RStudio to see which folder does R look for files. 
 4. Save Shiny.R and Summer-Olympic-medals-1976-to-2008.csv to said folder.
-5. Open up Shiny.R in RStudio and run the script.
+5. In the VCL terminal, run the following code:  
+```
+sudo git clone https://github.com/GaryLuUNC/ShinyDemo.git
+cd ShinyDemo
+docker build -t "name:Dockerfile" .
+```
+6. Open up Shiny.R in RStudio and run the script.
+
 
 Note: It is recommended that you view this visualization in full screen.
